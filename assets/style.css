@@ -1,0 +1,79 @@
+body{ overflow: hidden;
+    background: #cccccc;
+}
+
+header {
+    background: #ffffff;
+    color: #777777;
+    text-align: right;
+    margin-top: 5px;
+    padding: 20px;
+    font-family: Georgia;
+
+}
+
+#absolute{
+    text-align: center;
+    margin-top: 8px;
+    padding: 20px;
+    top: 0px;
+    left: 160px;
+    position: absolute;
+    font-size: 26px;
+    font-family: "Times New Roman";
+    background:#4aaaa5;
+}
+
+section{
+    width: 960px;
+    padding: 10px;
+    margin: 5px;
+    color:#4aaaa5 ;
+    left: 140px;
+    position: relative;
+
+}
+
+p{
+    margin-left: 3px;
+    color: black;
+}
+
+.Main {
+    font-family: Italic;
+    width: 650px;
+    font-size: 14px;
+    padding: 3px;
+    margin-top: 3px;
+    color: black;
+    background: #ffffff;
+
+}
+.sidenav {
+
+    width: 270px;
+    position: fixed;
+    text-align: center;
+    top: 100px;
+    right: 220px;
+    color: #4aaaa5;
+    background:#ffffff ;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 5px;
+    height: 30px;
+    clear: bottom;
+    background: #666666;
+
+}
+
+img {
+    float: left;
+}
+
